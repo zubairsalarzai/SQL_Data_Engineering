@@ -17,11 +17,11 @@ DROP TABLE IF EXISTS company_dim;
 CREATE TABLE company_dim (
     company_id INTEGER PRIMARY KEY,
     name VARCHAR,
-   /*
+   
     link VARCHAR,
     link_google VARCHAR,
     thumbnail VARCHAR
-    */
+    
 );
 
 -- Create skills_dim table
